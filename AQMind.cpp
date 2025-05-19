@@ -1,8 +1,34 @@
 /*
- * AQMind – Monitor de Nível e Fluxo d’Água
- * ESP32 + HC-SR04 + YF-S201
- * Autor: ChatGPT (OpenAI) – 19 mai 2025
- */
+ ██████╗███████╗████████╗██╗  ██╗ █████╗ ██████╗ 
+██╔════╝██╔════╝╚══██╔══╝██║  ██║██╔══██╗██╔══██╗
+██║     █████╗     ██║   ███████║███████║██████╔╝
+██║     ██╔══╝     ██║   ██╔══██║██╔══██║██╔══██╗
+╚██████╗███████╗   ██║   ██║  ██║██║  ██║██║  ██║
+ ╚═════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
+------------------------------------------------------------
+💧  CETHAP • Centro de Tecnologia Hídrica Aplicada à Pecuária
+🌾  “Inteligência que economiza cada gota.”
+------------------------------------------------------------
+📌  Autor: Lucas Galindo  
+🔗  GitHub:  https://github.com/Lucras22  
+📧  E-mail:  devlucasgalindo@email.com  
+💼  LinkedIn: https://www.linkedin.com/in/lucasgalindoiot/
+------------------------------------------------------------
+📜  Descrição do Arquivo
+    > (adicione aqui um breve resumo da finalidade do código)
+------------------------------------------------------------
+⚙️  Instruções de Uso
+    1. Instale as dependências listadas em /docs/REQUIREMENTS.md
+    2. Compile utilizando PlatformIO ou Arduino IDE (Espressif32)
+    3. Faça upload para o ESP32 e monitore a porta serial (115200 baud)
+------------------------------------------------------------
+📂  Repositório do Projeto
+🔗  https://github.com/CETHAP-GIT/AQMind
+------------------------------------------------------------
+🛠️  Licença
+    Este código está licenciado sob a MIT License – consulte LICENSE.md
+*/
+
 
 #include <Arduino.h>
 
