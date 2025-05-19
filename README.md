@@ -21,6 +21,22 @@ O **AQMind** é um dispositivo individual baseado em ESP32 que mede o **nível**
 - Sensor ultrassônico (nível de água)
 - Sensor de fluxo (volume consumido)
 
+- ## 🔌 Ligação dos Componentes (ESP32 ←→ Sensores)
+
+| Componente | Pino do Sensor | Pino no ESP32 | Observações |
+|------------|----------------|---------------|-------------|
+| **HC-SR04** – Sensor ultrassônico (nível) | VCC | **5 V** | Alimente com 5 V. Se usar versão 3 V3, conecte em 3V3 |
+| | GND | **GND** | Terra comum |
+| | TRIG | **GPIO 5** | Qualquer GPIO digital serve |
+| | ECHO | **GPIO 18** ⚡️ | **Use divisor 5 V→3 V** para proteger o ESP32 |
+| **YF-S201** – Sensor de fluxo | VCC | **5 V** | Funciona em 3 V3, mas perde linearidade |
+| | GND | **GND** | |
+| | OUT | **GPIO 19** 🡒 INT | Precisa de GPIO com interrupção |
+
+> 📏 **Ajuste físico do HC-SR04**  
+> Monte-o na tampa do reservatório, apontado para baixo, alinhado ao centro da água.  
+> A distância medida será convertida em profundidade de água no firmware.
+
 ---
 
 ### 🌐 Web Platform
