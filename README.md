@@ -6,7 +6,7 @@
 
 ## 📌 Visão Geral
 
-O **AQMind** é um dispositivo individual baseado em ESP32 que mede o **nível** e o **consumo de água** em tempo real. Ideal para residências, hortas, plantações e criações animais, o AQMind auxilia no uso consciente da água e no combate ao desperdício por meio de dados precisos, alertas e recomendações inteligentes.
+O **AQMind** é um dispositivo que mede o **nível** e o **consumo de água** em tempo real. Ideal para residências, hortas, plantações e criações animais, o AQMind auxilia no uso consciente da água e no combate ao desperdício por meio de dados precisos, alertas e recomendações inteligentes.
 
 ---
 
